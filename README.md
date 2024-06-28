@@ -30,7 +30,7 @@
 - Purchase Plant
 - View Order Status
 
-- **Architecture/Layer diagram for each of the apps including the middleware**
+  **Architecture/Layer diagram for each of the apps including the middleware**
 
 
 ![dad project  drawio](https://github.com/AllyshaApril/DAD-Project-Plant-Shop-/assets/129834240/38bc4405-e1e4-411a-8952-c38e76cc7561)
