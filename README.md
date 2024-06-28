@@ -21,7 +21,7 @@
 - View Plant details
 - Update Plant details
 - Manage Order status
- - Its receiver socket programming which receive every progress of customer
+  - Its receiver socket programming which receive every progress of customer
 
 **Customer**
 - Sign up & Login
