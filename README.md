@@ -14,14 +14,14 @@
 - **Brief explanation each apps** 
 
 **Shop owner**
-    - Login 
-       - Authentication 
-    - Plant Inventory dashboard
-    - Add Plant details 
-    - View Plant details
-    - Update Plant details
-    - Manage Order status
-      - Its receiver socket programming which receive every progress of customer
+- Login
+- Authentication
+- Plant Inventory dashboard
+- Add Plant details
+- View Plant details
+- Update Plant details
+- Manage Order status
+- Its receiver socket programming which receive every progress of customer
 
 ** Customer**
     - Sign up & Login
