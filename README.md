@@ -15,7 +15,7 @@
 
 **Shop owner**
 - Login
-- Authentication
+  - Authentication
 - Plant Inventory dashboard
 - Add Plant details
 - View Plant details
@@ -25,8 +25,8 @@
 
 **Customer**
 - Sign up & Login
-   - Authentication
-- After login all of the progress will be send to shop owner via socket programming
+  - Authentication
+  - After login all of the progress will be send to shop owner via socket programming
 - Purchase Plant
 - View Order Status
 
