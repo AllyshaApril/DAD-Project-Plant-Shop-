@@ -180,30 +180,35 @@
 Database name : akaa
 
 Table 1 : account 
-attributes 1. email 
-           2. password
-	   3. access
+attributes :
+1. email
+2. password
+3. access
 
 Table 2 : customer
-atrributes 1. c_id (customer id)
-	   2. c_name (customer name)
-           3. c_no (customer phone number)
-           4. email (customer valid email)
+atrributes :
+1. c_id (customer id)
+2. c_name (customer name)
+3. c_no (customer phone number)
+4. email (customer valid email)
 
 Table 3 : orders
-attributes 1. o_id (order id)
-	   2. qty (quantity)
-           3. p_id (plant id) (attribute refer to plant table)
-           4. purchase_id (attribute refer to purchase table)
+attributes :
+1. o_id (order id)
+2. qty (quantity)
+3. p_id (plant id) (attribute refer to plant table)
+4. purchase_id (attribute refer to purchase table)
 
 Table 4 : plants
-attributes 1. p_id (plant id)
-           2. p_name (plant name)
-           3. p_stock (plant stock)
-           4. p_price (plant price)
+attributes :
+1. p_id (plant id)
+2. p_name (plant name)
+3. p_stock (plant stock)
+4. p_price (plant price)
 
 Table 5 : purchase 
-attributes 1. purchase_id 
-           2. o_date (order date)
-           3. status 
-           4. c_id (customer id) (attribute refer to customer id)
+attributes :
+1. purchase_id
+2. o_date (order date)
+3. status
+4. c_id (customer id) (attribute refer to customer id)
