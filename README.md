@@ -201,5 +201,3 @@ attributes 1. purchase_id
            2. o_date (order date)
            3. status 
            4. c_id (customer id) (attribute refer to customer id)
-
-
