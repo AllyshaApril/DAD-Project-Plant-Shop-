@@ -44,7 +44,7 @@
 - **List of URL end points middleware RESTful/SOAP/Socket** 
 
   **Restful** 
- ** Customer (Receiver shop owner folder)**
+ **Customer (Receiver shop owner folder)**
     - Sign up 
         - http://localhost/DAD/cust_signup.php
     
@@ -66,7 +66,7 @@
     - If customer successfully purchased
        - http://localhost/DAD/cust_order.php
   
- ** Shop Owner**
+ **Shop Owner**
     - View all the plants from db
        - http://localhost/DAD/plants.php
     
@@ -88,8 +88,8 @@
     - Update the purchase status (paid/unpaid)
       - http://localhost/DAD/paid.php
 
-    **Socket Programming **
-       ** Shop owner : Receiver.java**
+    **Socket Programming**
+       **Shop owner : Receiver.java**
 
   	- Cust_SignUp & Cust_Login & Cust_Purchase & Check Out & Cust_Order & Cust_View (View specific purchase history) sends data
       		- Port: 8080
@@ -99,7 +99,7 @@
                - Port : 10000
                - IP Address: 10.200.109.19
 
-        **Customer : Receiver.java **
+        **Customer : Receiver.java**
         - Customer login 
                - Port: 5000
       	       - IP Address: 10.200.109.19
