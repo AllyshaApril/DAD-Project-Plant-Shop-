@@ -1,16 +1,13 @@
-For Project Documentation, please write the details of your project in the Github using the Readme.md.
-The details required: 
-
 Project Name : Plant Ordering System
 
-- How many apps involved
+- **How many apps involved**
   
  1. Shop owner
  2. Customer
    
-- Brief explanation each apps 
+- **Brief explanation each apps** 
 
-Shop owner
+**Shop owner**
     - Login 
        - Authentication 
     - Plant Inventory dashboard
@@ -20,14 +17,14 @@ Shop owner
     - Manage Order status
       - Its receiver socket programming which receive every progress of customer
 
- Customer
+** Customer**
     - Sign up & Login
       - Authentication  
       - After login all of the progress will be send to shop owner via socket programming
     - Purchase Plant
     - View Order Status
 
-- Architecture/Layer diagram for each of the apps including the middleware
+- **Architecture/Layer diagram for each of the apps including the middleware**
 
 
 ![dad project  drawio](https://github.com/AllyshaApril/DAD-Project-Plant-Shop-/assets/129834240/38bc4405-e1e4-411a-8952-c38e76cc7561)
@@ -38,10 +35,10 @@ Shop owner
 
 
    
-- List of URL end points middleware RESTful/SOAP/Socket 
+- **List of URL end points middleware RESTful/SOAP/Socket** 
 
-  Restful 
-  Customer (Receiver shop owner folder)
+  **Restful** 
+ ** Customer (Receiver shop owner folder)**
     - Sign up 
         - http://localhost/DAD/cust_signup.php
     
@@ -63,7 +60,7 @@ Shop owner
     - If customer successfully purchased
        - http://localhost/DAD/cust_order.php
   
-  Shop Owner
+ ** Shop Owner**
     - View all the plants from db
        - http://localhost/DAD/plants.php
     
@@ -85,13 +82,10 @@ Shop owner
     - Update the purchase status (paid/unpaid)
       - http://localhost/DAD/paid.php
 
+    **Socket Programming **
+       ** Shop owner : Receiver.java**
 
-10000 = view specific purchase details
-
-    Socket Programming 
-        Shop owner : Receiver.java
-
-    	- Cust_SignUp & Cust_Login & Cust_Purchase & Check Out & Cust_Order & Cust_View (View specific purchase history) sends data
+  	- Cust_SignUp & Cust_Login & Cust_Purchase & Check Out & Cust_Order & Cust_View (View specific purchase history) sends data
       		- Port: 8080
       		- IP Address: 10.200.109.19
 
@@ -99,7 +93,7 @@ Shop owner
                - Port : 10000
                - IP Address: 10.200.109.19
 
-        Customer : Receiver.java 
+        **Customer : Receiver.java **
         - Customer login 
                - Port: 5000
       	       - IP Address: 10.200.109.19
@@ -112,9 +106,9 @@ Shop owner
               - Port: 9999
               - IP Address: 10.200.109.19
 
-- Functions/Features in the middleware
+- **Functions/Features in the middleware**
 
-  - Shop Owner
+  - **Shop Owner**
       -  Socket Programming:
         	Middleware to establish a WebSocket connection for real-time updates.
                 Receive and process customer progress updates.    
@@ -152,7 +146,7 @@ Shop owner
         Middleware to handle the updating of order status.
 
 
-   - Customer
+   - **Customer**
      - Sign Up & Login
 
     Authentication:
@@ -175,7 +169,7 @@ Shop owner
         Middleware to create a new order in the database after a successful purchase.
 
 
-- The database and tables involve in the projects
+- **The database and tables involve in the projects**
 
 Database name : akaa
 
