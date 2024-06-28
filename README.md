@@ -4,7 +4,7 @@
 3. Fatin Ainaa Syazwani Bt Mohd Refaee (B032210080)
 4. Nur Amelia Asyqin Bt Mohd Ismailuzabihullah (B032210011)
 
-Project Name : Plant Ordering System
+**Project Name : Plant Ordering System**
 
 - **How many apps involved**
   
