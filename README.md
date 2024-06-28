@@ -1,3 +1,9 @@
+Team Members : 
+      1. Allysha April Si Kim Choo (B032210435) 
+      2. Kiruthikga A/P Asogan (B032210042) 
+      3. Fatin Ainaa Syazwani Bt Mohd Refaee (B032210080) 
+      4. Nur Amelia Asyqin Bt Mohd Ismailuzabihullah (B032210011)
+
 Project Name : Plant Ordering System
 
 - **How many apps involved**
