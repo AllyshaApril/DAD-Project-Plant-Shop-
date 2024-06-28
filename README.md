@@ -25,7 +25,7 @@
 
 **Customer**
 - Sign up & Login
-- Authentication
+   - Authentication
 - After login all of the progress will be send to shop owner via socket programming
 - Purchase Plant
 - View Order Status
