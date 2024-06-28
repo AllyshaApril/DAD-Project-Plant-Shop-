@@ -23,12 +23,12 @@
 - Manage Order status
 - Its receiver socket programming which receive every progress of customer
 
-** Customer**
-    - Sign up & Login
-      - Authentication  
-      - After login all of the progress will be send to shop owner via socket programming
-    - Purchase Plant
-    - View Order Status
+**Customer**
+- Sign up & Login
+- Authentication
+- After login all of the progress will be send to shop owner via socket programming
+- Purchase Plant
+- View Order Status
 
 - **Architecture/Layer diagram for each of the apps including the middleware**
 
