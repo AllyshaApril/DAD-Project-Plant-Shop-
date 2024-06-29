@@ -64,11 +64,11 @@
         - http://localhost/DAD/cust_history.php
 
     - If customer successfully purchased
-       - http://localhost/DAD/cust_order.php
+         - http://localhost/DAD/cust_order.php
   
  **Shop Owner**
     - View all the plants from db
-       - http://localhost/DAD/plants.php
+         - http://localhost/DAD/plants.php
     
     - Add new plant information
       - http://localhost/DAD/add_plant.php
@@ -100,6 +100,7 @@
                - IP Address: 10.200.109.19
 
         **Customer : Receiver.java**
+
         - Customer login 
                - Port: 5000
       	       - IP Address: 10.200.109.19
